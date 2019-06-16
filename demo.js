@@ -29,6 +29,7 @@ function detect_callback(isDetected) {
 function init_threeScene(spec) {
     const threeStuffs = THREE.JeelizHelper.init(spec, detect_callback);
 
+    
     FIREWORKOBJ3D = new THREE.Object3D();
 
     // CREATE ROCKETS
